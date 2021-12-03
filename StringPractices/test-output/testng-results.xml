@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="154" started-at="2021-11-23T12:40:51 IST" finished-at="2021-11-23T12:40:51 IST">
+  <suite name="Failed suite [Default suite]" duration-ms="157" started-at="2021-12-03T11:09:31 IST" finished-at="2021-12-03T11:09:32 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="154" started-at="2021-11-23T12:40:51 IST" finished-at="2021-11-23T12:40:51 IST">
+    <test name="Default test(failed)" duration-ms="157" started-at="2021-12-03T11:09:31 IST" finished-at="2021-12-03T11:09:32 IST">
       <class name="TestNg.Assert1">
-        <test-method status="FAIL" signature="softAssert()[pri:1, instance:TestNg.Assert1@195d2a2]" name="softAssert" duration-ms="29" started-at="2021-11-23T12:40:51 IST" finished-at="2021-11-23T12:40:51 IST">
+        <test-method status="FAIL" signature="softAssert()[pri:1, instance:TestNg.Assert1@1d0c81b]" name="softAssert" duration-ms="27" started-at="2021-12-03T11:09:32 IST" finished-at="2021-12-03T11:09:32 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -53,7 +53,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- softAssert -->
-        <test-method status="FAIL" signature="hardAssert()[pri:2, instance:TestNg.Assert1@195d2a2]" name="hardAssert" duration-ms="10" started-at="2021-11-23T12:40:51 IST" finished-at="2021-11-23T12:40:51 IST">
+        <test-method status="FAIL" signature="hardAssert()[pri:2, instance:TestNg.Assert1@1d0c81b]" name="hardAssert" duration-ms="6" started-at="2021-12-03T11:09:32 IST" finished-at="2021-12-03T11:09:32 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -100,6 +100,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- hardAssert -->
       </class> <!-- TestNg.Assert1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Default test(failed) -->
+  </suite> <!-- Failed suite [Default suite] -->
 </testng-results>
