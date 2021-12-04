@@ -12,9 +12,8 @@ public class RevStrings {
 	System.out.println("After reverse string is: ");  
 	for(int i=(s.length())-1;i>=0;--i)                //i is the length of the string  
 	{  
-	r=r+s.charAt(i);            //printing the character at index i-1  
+	r=r+s.charAt(i);   //printing the character at index i-1  
 	} 
 	System.out.println(r);
-	}  
-	
+	}
 }

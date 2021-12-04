@@ -7,7 +7,6 @@ import org.testng.asserts.SoftAssert;
 
 
 public class Assert1 {
- 
 	@Test ( priority = 1)
 	public void softAssert(){
 		SoftAssert softAssertion= new SoftAssert();

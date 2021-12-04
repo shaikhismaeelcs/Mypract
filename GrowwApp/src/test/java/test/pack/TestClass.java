@@ -5,7 +5,7 @@ import java.io.IOException;
 import org.apache.poi.EncryptedDocumentException;
 import org.testng.annotations.Test;
 
-
+import utility.pack.Xl2;
 import utility.pack.XlSheet;
 public class TestClass {
 	@Test
@@ -19,6 +19,9 @@ public class TestClass {
 	//	u.pshot();
 	//	driver.get("https://www.google.com/");
 		//u.fshot();
-	String data1=XlSheet.xl(1,1);
-		System.out.println(data1);
+	//String data1=XlSheet.xl(1,1);
+	//	System.out.println(data1);
+		String data2=Xl2.xl3(1, 1);
+		System.out.println(data2);
+		
 }}
